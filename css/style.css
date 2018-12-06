@@ -1,0 +1,259 @@
+body, html {
+    height: 100%;
+}
+
+
+
+.fs-img1 { 
+    /* The image used */
+    background-image: url("/img/deadbirdplastic.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* One cell image*/
+
+.cs-img1 { 
+    /* The image used */
+    background-image: url("/img/seacreatures.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.os-img1 { 
+    /* The image used */
+    background-image: url("/img/newreusablebag.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+.hs-img1 { 
+    /* The image used */
+    background-image: url("/img/under-water.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.black-transparent {
+    background-color: rgba(0, 0, 0, 0.5)
+    
+    
+}
+
+h1 {
+    
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12vh;
+    font-size: 5vw;
+}
+
+/* Full Screen Video */
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+/* For the full screen video */
+
+@media (min-width:1080px)
+{
+    
+    #myVideo {
+    position: fixed;
+    right: 0;
+    top: -10%;
+    min-width: 100%; 
+    min-height: 100%;
+}
+}
+
+
+
+
+
+
+/* cards */
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 2px 2px 8px 0 rgba(39, 73, 255, 0.2);
+    transition: 0.7s;
+    border-radius: 5px;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    /* Centering the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 4px 2px 16px 0 rgba(0, 244, 197, 0.2);
+}
+.card h4 {
+}
+/* Add some padding inside the card container */
+.card-container {
+    padding: 1% 2% 1% 2%;
+    color: #000000;
+    background-color: #AAC77A; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom, #AAC77A , ##e0ffad); /* Standard syntax (must be last) */
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* Modal */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* Second card container */
+
+
+
+/* Add some padding inside the card container */
+.card-container2 {
+    padding: 1% 2% 1% 2%;
+    color: #000000;
+    background-color: #7fb12e; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom, #AAC77A , ##e0ffad); /* Standard syntax (must be last) */
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* Third card container */
+
+
+
+/* Add some padding inside the card container */
+.card-container3 {
+    padding: 1% 2% 1% 2%;
+    color: #000000;
+    background-color: #558900; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom, #AAC77A , ##e0ffad); /* Standard syntax (must be last) */
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* Forth card container */
+
+
+
+/* Add some padding inside the card container */
+.card-container4 {
+    padding: 1% 2% 1% 2%;
+    color: #000000;
+    background-color: #8686ff; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom, #AAC77A , ##e0ffad); /* Standard syntax (must be last) */
+    border-radius: 10px 10px 10px 10px;
+}
+
